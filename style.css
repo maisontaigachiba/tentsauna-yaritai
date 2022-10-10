@@ -1,0 +1,58 @@
+body {
+    background-color: aquamarine;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+}
+footer {
+    height: 50px;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+
+    position: fixed;
+    z-index: 999;
+    bottom:0;
+    left:0;
+}
+h1, h2{
+    text-align: center;
+}
+img {
+    max-width: 100%;
+}
+.top-contents, .plans{
+    max-width: 580px;
+    margin: 0 auto 60px;
+    text-align: center;
+}
+.select-plan, .plan-example{
+    background-color: white;
+    padding: 20px 0;
+}
+.explanation-text {
+    text-align: left;
+    margin-bottom: 2em;
+    font-size: 18px;
+    line-height: 1.95;
+}
+.last{
+    margin-bottom: 120px;
+}
+
+@media screen and (min-width: 600px) {
+    .top-contents, .plans{
+        width: 80%;
+        max-width: none;
+        margin: 0 auto 60px;
+        text-align: center;
+    }
+}
