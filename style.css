@@ -47,12 +47,28 @@ img {
 .last{
     margin-bottom: 120px;
 }
+.footer {
+    margin: 0 auto;
+    font-size: x-large;
+    font-weight: bold;
+}
 
-@media screen and (min-width: 600px) {
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 25px;
+    }
+    footer p span.contact{
+        text-align: left;
+        display: block;
+    }
     .top-contents, .plans{
         width: 80%;
         max-width: none;
         margin: 0 auto 60px;
         text-align: center;
+    }
+    .footer {
+        font-size: medium;
+        font-weight: bold;
     }
 }
